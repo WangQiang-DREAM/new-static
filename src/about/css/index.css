@@ -1,0 +1,98 @@
+.jumbotron{
+    background-image: url('//p0.ifengimg.com/fe/zl/test/live/p2p_index/about.png');
+}
+@media ( max-width: 770px) {
+    .jumbotron {
+        height: 7.6rem;
+        overflow: hidden;
+    }
+}
+.banner_img{
+    margin:0 auto;
+}
+
+.features {
+    background: #FFF;
+    padding: 0.68rem 0 0.50rem;
+}
+.features-color{
+    background-color: #F7F8F9;
+}
+.features .intro {
+    margin-bottom: 0.50rem;
+}
+.intro h2.title {
+    text-align: left;
+}
+.features .intro .title {
+    font-size: 0.30rem;
+    margin-top: 0.20rem;
+    margin-bottom: 0.20rem;
+    font-weight: 300;
+}
+.features p {
+    color: rgb(80, 103, 125);
+    font-size: 0.14rem;
+    line-height: 0.28rem;
+}
+.mb5 {
+    margin-top: 20px;
+}
+.features a {
+    color: #888;
+}
+.jumbotron p {
+    font-size: 17px;
+}
+.features .thumbnail {
+    border: none;
+    background: transparent;
+    margin-bottom: 0;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-transition: border 0.2s ease-in-out;
+    -o-transition: border 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out;
+}
+.caption h4{
+    text-align: center;
+}
+.text-left{
+    margin-top: 30px;
+    line-height: 40px;
+}
+.about_h h3 {
+    color: rgb(80, 103, 125);
+    font-weight: bold;
+}
+.about_h{
+    margin-top: 20px;
+}
+.about_h img{
+    margin:20px 0px 0px 80px;
+}
+.about_h .tree {
+    width: 136.14px;
+    height: 116px;
+}
+.title {
+    font-weight: bold;
+}
+
+.mb4 {
+    font-size: 17px;
+    color: rgb(134, 142, 150);
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.mb6 {
+    margin-top: 48px;
+}

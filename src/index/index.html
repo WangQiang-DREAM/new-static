@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <script src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/iconfont.js"></script>
+    <link rel="stylesheet" href="/lib/css/swiper-3.4.2.min.css">
+    <%= htmlWebpackPlugin.options.statisticsHeader %>
+        <% for (key in htmlWebpackPlugin.files.css) { %>
+            <link href="<%= htmlWebpackPlugin.files.css[key] %>" rel="stylesheet">
+            <% } %>
+</head>
+
+<body>
+    <!-- nav start  -->
+    <%= htmlWebpackPlugin.options.header %>
+        <!-- nav end  -->
+
+        <!-- banner start -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <div class="container">
+                            <div class="banner_text">
+                                <p class="p1">海螺加速服务</p>
+                                <p class="p2">高速下载、稳定传输、流畅体验、海量资源，只需要更少的花费
+                                    <br>海螺为您提供最好的流媒体加速服务</p>
+                            </div>
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/bannerprice.png" alt="banner">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <div class="container">
+                            <div class="banner_text">
+                                <p class="p1">海螺加速服务</p>
+                                <p class="p2">高速下载、稳定传输、流畅体验、海量资源，只需要更少的花费
+                                    <br>海螺为您提供最好的流媒体加速服务</p>
+                            </div>
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/bannerprice.png" alt="banner">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <div class="container">
+                            <div class="banner_text">
+                                <p class="p1">海螺加速服务</p>
+                                <p class="p2">高速下载、稳定传输、流畅体验、海量资源，只需要更少的花费
+                                    <br>海螺为您提供最好的流媒体加速服务</p>
+                            </div>
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/bannerprice.png" alt="banner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+        </div>
+
+
+        <!-- banner end -->
+
+        <!-- spread start -->
+        <!-- spread end -->
+
+        <!-- progress start -->
+        <div class="spread_progress pb40 pt40 mb5" id="div1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="spread_head">惠享资源 触手可及</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="col-xs-6 col-sm-4  col-lg-4 item">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-hd-1080p-64.png" />
+                            <h3>高清流畅</h3>
+                            <p class="spread_desc">科学有效的转码方式
+                                <br>提供优质视频播放服务</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-lg-4 item">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-cloud.png" />
+                            <h3>海量资源共享</h3>
+                            <p class="spread_desc">海量资源
+                                <br>分布式存储在网络中</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-lg-4 item">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-paper-plane.png" />
+                            <h3>方便易用</h3>
+                            <p class="spread_desc">代码简洁无需专业知识
+                                <br>粘来即用</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-lg-4 item">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-safe-64.png">
+                            <h3>保护隐私</h3>
+                            <p class="spread_desc">分散存储信息
+                                <br>防止被窃听和信息泄露</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-lg-4 item">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-anchor-64.png">
+                            <h3>稳定可靠</h3>
+                            <p class="spread_desc">网络拥塞、丢包、延时等局部网络
+                                <br>突发状况不影响用户体验</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-lg-4 item">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-gift.png">
+                            <h3>惊爆钜惠</h3>
+                            <p class="spread_desc">更快的传输服务，更少的流量消耗
+                                <br>回馈给您优质的服务</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="accurate_spread pb40 pt40 mb5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="spread_head">核心功能及服务</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6  col-md-6 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-artificial.png" class="img-responsive center-block" alt="">
+                        <h4>稳定流畅的视频播放</h4>
+                        <p class="col-lg-12 spread_desc">优先使用低耗流量服务
+                            <br>并保证服务不中断，保证流畅持续的服务</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-sankey.png" class="img-responsive center-block" alt="">
+                        <h4>优质廉价的加速服务</h4>
+                        <p class="col-lg-12 spread_desc">多源加速服务
+                            <br>无需担心带宽不足或负载变化</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6  col-md-6 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-video.png" class="img-responsive center-block" alt="">
+                        <h4>自动检测服务接入点</h4>
+                        <p class="col-lg-12 spread_desc">自动检测服务接入点
+                            <br>贴心为您提供优质低费服务</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-video-file.png" class="img-responsive center-block" alt="">
+                        <h4>支持多种视频格式和流媒体协议</h4>
+                        <p class="col-lg-12 spread_desc">海螺播放器使用成熟的流媒体播放技术
+                            <br>提供优质的视频播放服务</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spread_progress pb40 pt40 mb5 mobile">
+            <div class="container">
+                <div class="row mb15">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="spread_head">适用场景</h2>
+                        <hr class="my-4">
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <p class="col-md-12 mb4">直播、点播视频加速，减少传输流量，提高传输速度的场景</p>
+                        <p class="col-md-12 mb4">能够更加灵活、更加快速、更加方便、更加开放地实现不同行业、场景下客户对视频播放质量和流量开销双重要求下地加速要求。</p>
+                    </div>
+                </div>
+                <div class="row c-mb20">
+                    <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-tv-show.png" class="img-responsive center-block" alt="">
+                        <h5>视频点播</h5>
+                    </div>
+                    <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-communication.png" class="img-responsive center-block" alt="">
+                        <h5>社交直播</h5>
+                    </div>
+                    <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-game-controller.png" class="img-responsive center-block" alt="">
+                        <h5>游戏直播</h5>
+                    </div>
+                    <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-stethoscope.png" class="img-responsive center-block" alt="">
+                        <h5>医疗直播</h5>
+                    </div>
+                    <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-student-male-40.png" class="img-responsive center-block" alt="">
+                        <h5>教育直播</h5>
+                    </div>
+                    <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-musical-notes-40.png" class="img-responsive center-block" alt="">
+                        <h5>文娱直播</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spread_progress pb40 pt40 mb5 pc">
+            <div class="container">
+                <div class="row mb15">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="spread_head">适用场景</h2>
+                        <hr class="my-4">
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <p class="col-md-12 mb4">直播、点播视频加速，减少传输流量，提高传输速度的场景</p>
+                        <p class="col-md-12 mb4">能够更加灵活、更加快速、更加方便、更加开放地实现不同行业、场景下客户对视频播放质量和流量开销双重要求下地加速要求。</p>
+                    </div>
+                </div>
+                <div class="row c-mb20">
+                    <div class="col-xs-6  col-lg-3 scene scene_lg1 _trans">
+                        <div class="cover-bg1"></div>
+                        <div class="col-xs-12  col-lg-12 text-center cj_img">
+                            <div class="text-center scene_content">
+                                    <i class="scene-icon"></i>
+                                    <span class="device"></span>
+                                    <span class="scene_span">视频直播</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-6  col-lg-3 scene">
+                        <div class="col-xs-12  col-lg-12 scene-top scene-top1 _trans">
+                            <div class="cover-bg"></div>
+                            <div class="col-xs-12  col-lg-12 text-center cj_img ">
+                                    <div class="text-center scene_sm_content">
+                                            <i class="scene-icon"></i>
+                                            <span class="device"></span>
+                                            <span class="scene_span">社交直播</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12  col-lg-12 scene-bot scene-bot1 _trans">
+                            <div class="cover-bg"></div>
+                            <div class="col-xs-12  col-lg-12 text-center cj_img ">
+                                    <div class="text-center scene_sm_content">
+                                            <i class="scene-icon"></i>
+                                            <span class="device"></span>
+                                            <span class="scene_span">游戏直播</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6  col-lg-3 scene scene_lg2 _trans">
+                        <div class="cover-bg1"></div>
+                        <div class="col-xs-12  col-lg-12  text-center cj_img">
+                                <div class="text-center scene_content">
+                                        <i class="scene-icon"></i>
+                                        <span class="device"></span>
+                                        <span class="scene_span">教育直播</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6  col-lg-3 scene">
+                        <div class="col-xs-12  col-lg-12 scene-top  scene-top2 _trans">
+                            <div class="cover-bg"></div>
+                            <div class="col-xs-12  col-lg-12 text-centercj_img ">
+                                    <div class="text-center scene_sm_content">
+                                            <i class="scene-icon"></i>
+                                            <span class="device"></span>
+                                            <span class="scene_span">文娱直播</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12  col-lg-12 scene-bot _trans scene-bot2">
+                            <div class="cover-bg"></div>
+                            <div class="col-xs-12  col-lg-12 text-center  cj_img ">
+                                    <div class="text-center scene_sm_content">
+                                            <i class="scene-icon"></i>
+                                            <span class="device"></span>
+                                            <span class="scene_span">电商直播</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-communication.png" class="img-responsive center-block" alt="">
+                            <h5>社交直播</h5>
+                        </div>
+                        <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-game-controller.png" class="img-responsive center-block" alt="">
+                            <h5>游戏直播</h5>
+                        </div>
+                        <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-stethoscope.png" class="img-responsive center-block" alt="">
+                            <h5>医疗直播</h5>
+                        </div>
+                        <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-student-male-40.png" class="img-responsive center-block" alt="">
+                            <h5>教育直播</h5>
+                        </div>
+                        <div class="col-xs-4  col-lg-2 item text-center cj_img">
+                            <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-musical-notes-40.png" class="img-responsive center-block" alt="">
+                            <h5>文娱直播</h5>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- progress end -->
+        <!-- footer start -->
+
+        <%= htmlWebpackPlugin.options.footer %>
+
+            <%= htmlWebpackPlugin.options.statisticsFooter %>
+
+                <!-- footer end -->
+                <% if (htmlWebpackPlugin.options.inlineManifestWebpackName) { %>
+                    <%= htmlWebpackPlugin.files[htmlWebpackPlugin.options.inlineManifestWebpackName] %>
+                        <% } %>
+                            <% for (key in htmlWebpackPlugin.files.chunks) { %>
+
+                                <script src="<%= htmlWebpackPlugin.files.chunks[key].entry %>" type="text/javascript"></script>
+                                <% } %>
+
+                                    <script src="/lib/js/swiper-3.4.2.min.js"></script>
+                                    <script>
+                                        var swiper = new Swiper('.swiper-container', {
+                                            pagination: '.swiper-pagination',
+                                            paginationClickable: true,
+                                            spaceBetween: 10,
+                                            speed: 800,
+                                            loop: true,
+                                            centeredSlides: true,
+                                            autoplay: 3500,
+                                            autoplayDisableOnInteraction: false
+                                        });
+                                    </script>
+
+</body>
+<!-- <script src="lib/jquery-3.2.1.min.js"></script>
+<script src="lib/bootstrap-3.37.min.js"></script>
+<script src="js/index.js"></script> -->
+
+</html>

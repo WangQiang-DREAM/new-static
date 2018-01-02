@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <%= htmlWebpackPlugin.options.statisticsHeader %>
+        <% for (key in htmlWebpackPlugin.files.css) { %>
+            <link href="<%= htmlWebpackPlugin.files.css[key] %>" rel="stylesheet">
+            <% } %>
+</head>
+
+<body>
+    <!-- nav start  -->
+    <%= htmlWebpackPlugin.options.header %>
+        <!-- nav end  -->
+
+        <!-- banner start -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="intro">
+                            <h2 class="title">
+                                P2P流媒体技术
+                            </h2>
+                        </div>
+                        <p class="text-left">
+                            流媒体是指在数据网络上按时间先后次序传输和播放地连续音、视频数据流，给一大批新兴的网络多媒体应用如网络电视、体育赛事广播、在线游戏、远程教育等提供了技术支持。近年来，人们把P2P技术引入到流媒体传输中而形成了P2P流媒体技术，扩大用户组的规模，且更多的需求也带来了更多的资源。
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/u56.png"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner end -->
+
+        <!-- spread start -->
+        <div class="accurate_spread pb40 pt40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="spread_head">P2P流媒体系统</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <h4 class="col-md-2"></h4>
+                    <p class="col-md-8 mb4" style="line-height:35px;">P2P流媒体系统按照其播送方式可分为直播系统和点播系统。</p>
+                </div>
+                <div class="row about_h">
+                    <div class="col-md-2 text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-documentary-64.png">
+                    </div>
+                    <h3 class="col-md-10">直播</h3>
+                    <p class="col-md-10">
+                        在流媒体直播服务中，用户只能按照节目列表收看当前正在播放的节目。在直播领域，交互性较少，技术实现相对简单，因此P2P技术在直播服务中发展迅速。
+                    </p>
+                </div>
+                <div class="row about_h">
+                    <div class="col-md-2 text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-video.png">
+                    </div>
+                    <h3 class="col-md-10">点播</h3>
+                    <p class="col-md-10">
+                        在P2P流媒体点播服务中，用户可以选择节目列表中的任意节目观看，视频源在服务器或硬盘中储存，可以随时播放。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accurate_spread features-color pb40 pt40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="spread_head">P2P流媒体系统网络结构</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row about_h">
+                    <div class="col-md-2 text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-flow-chart-64.png">
+                    </div>
+                    <h3 class="col-md-10">基于树的方法</h3>
+                    <p class="col-md-10">
+                        节点被组织成某种传输数据的拓扑（通常是树），每个数据分组都在同一拓扑上被传输，拓扑结构上的节点有明确定义的关系，例如，树结构中的“父节点-子节点”关系。
+                    </p>
+                </div>
+                <div class="row about_h">
+                    <div class="col-md-2 text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-server-64.png">
+                    </div>
+                    <h3 class="col-md-10">数据驱动的方法</h3>
+                    <p class="col-md-10">
+                        数据驱动的覆盖网络不组建和维护一个传输数据的明显拓扑结构，用数据的可用性去引导数据流。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accurate_spread pb40 pt40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="spread_head">P2P流媒体的应用</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+                <div class="row text-center mb6">
+                    <div class="col-lg-1">
+                    </div>
+                    <div class="col-md-4  col-lg-2 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-video-message-64.png">
+                        <p>视频点播</p>
+                    </div>
+                    <div class="col-md-4  col-lg-2 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-speaker-64.png">
+                        <p>视频广播</p>
+                    </div>
+                    <div class="col-md-4  col-lg-2 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-tv-show-64.png">
+                        <p>交互式网络电视(IPTV)</p>
+                    </div>
+                    <div class="col-md-4  col-lg-2 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-student-male-64.png">
+                        <p>远程教学</p>
+                    </div>
+                    <div class="col-md-4  col-lg-2 item text-center">
+                        <img src="//p0.ifengimg.com/fe/zl/test/live/p2p_index/icons8-game-controller-64.png">
+                        <p>交互游戏</p>
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- spread end -->
+
+        <!-- footer start -->
+        <%= htmlWebpackPlugin.options.footer %>
+            <%= htmlWebpackPlugin.options.statisticsFooter %>
+                <!-- footer end -->
+                <% if (htmlWebpackPlugin.options.inlineManifestWebpackName) { %>
+                    <%= htmlWebpackPlugin.files[htmlWebpackPlugin.options.inlineManifestWebpackName] %>
+                        <% } %>
+                            <% for (key in htmlWebpackPlugin.files.chunks) { %>
+                                <script src="<%= htmlWebpackPlugin.files.chunks[key].entry %>" type="text/javascript"></script>
+                                <% } %>
+</body>
+<!-- <script src="lib/jquery-3.2.1.min.js"></script>
+<script src="lib/bootstrap-3.37.min.js"></script>
+<script src="js/index.js"></script> -->
+
+</html>
